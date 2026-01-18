@@ -5,21 +5,21 @@
 class Lazycurl < Formula
   desc "A Lazygit-style TUI HTTP client for API testing"
   homepage "https://github.com/kbrdn1/LazyCurl"
-  version "1.2.0"
+  version "1.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/kbrdn1/LazyCurl/releases/download/v1.2.0/LazyCurl_1.2.0_darwin_amd64.tar.gz"
-      sha256 "9c4a95e112568c9b498f7be37d9a27b50acf39cdf78c371f658f236ea99fa2ca"
+      url "https://github.com/kbrdn1/LazyCurl/releases/download/v1.3.0/LazyCurl_1.3.0_darwin_amd64.tar.gz"
+      sha256 "348a7646f15d98cb6fd7b39806242d45e0b5aaac0a67baf54e87930a3143110a"
 
       def install
         bin.install "lazycurl"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/kbrdn1/LazyCurl/releases/download/v1.2.0/LazyCurl_1.2.0_darwin_arm64.tar.gz"
-      sha256 "c4bf9f85f8a8603ffa2ae3b3193d2aa7428732754a73e75e3a425d78d79a1a1b"
+      url "https://github.com/kbrdn1/LazyCurl/releases/download/v1.3.0/LazyCurl_1.3.0_darwin_arm64.tar.gz"
+      sha256 "dac66d713cea5faf7765a42169e4764a09d709df61acf4b1dfd9c0bea48d5d85"
 
       def install
         bin.install "lazycurl"
@@ -29,15 +29,15 @@ class Lazycurl < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kbrdn1/LazyCurl/releases/download/v1.2.0/LazyCurl_1.2.0_linux_amd64.tar.gz"
-      sha256 "0c2ad3c77dd4c347a90ed0aa694a00579a63b933c19c37d4514d7e680d6fd6f0"
+      url "https://github.com/kbrdn1/LazyCurl/releases/download/v1.3.0/LazyCurl_1.3.0_linux_amd64.tar.gz"
+      sha256 "5dab934587357827e04f8649463201cddce8e20e0d6bb666268d8b56e21d355b"
       def install
         bin.install "lazycurl"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kbrdn1/LazyCurl/releases/download/v1.2.0/LazyCurl_1.2.0_linux_arm64.tar.gz"
-      sha256 "a32c8515145f517e49a062d039d101c9bfed08695de50fd408c11b820f52543d"
+      url "https://github.com/kbrdn1/LazyCurl/releases/download/v1.3.0/LazyCurl_1.3.0_linux_arm64.tar.gz"
+      sha256 "a7fa50a6c5fd2897bffdd139cf6ec75b8d3c985b860ef5cd1654394d8fc39969"
       def install
         bin.install "lazycurl"
       end
