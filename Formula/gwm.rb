@@ -1,17 +1,17 @@
 class Gwm < Formula
   desc "git worktree manager — TUI + CLI, native libgit2, per-repo bootstrap"
   homepage "https://github.com/kbrdn1/gwm-cli"
-  version "1.1.1"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kbrdn1/gwm-cli/releases/download/v1.1.1/gwm-v1.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "c4b00394e316cb47ca8d2ba87a3c975d07c5299179aab4a541639d166982e400"
+      url "https://github.com/kbrdn1/gwm-cli/releases/download/v1.2.0/gwm-v1.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3eb27003f1674f6d1e6e82944528a72a7b6f0d24ea9f403d2ab2eaa4ca431a98"
     end
     on_intel do
-      url "https://github.com/kbrdn1/gwm-cli/releases/download/v1.1.1/gwm-v1.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "580b480654ceba44cf1b6c7beb7ba8f841f0652b3227191ed93c5022f9e1c293"
+      url "https://github.com/kbrdn1/gwm-cli/releases/download/v1.2.0/gwm-v1.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "666b64558698f0e0b121a1795de54252c4d7cc3146020faca70596c693e25488"
     end
   end
 
